@@ -2,20 +2,22 @@
     <html>
 
     <body>
-        <h1> La Florentina</h1>
-        <h2>Pizzéria</h2>
-        <ul>
-            <li><a href=“abcd” target=“_self”>Accueil</a></li>
-            <li><a href=“abcd” target=“_self”>Nos pizzas</a></li>
-            <li><a href=“abcd” target=“_self”>Contact</a></li>
-        </ul>
-        <h2>A propos</h2>
-        <p>
-            La Florentina a ouvert ses portes en 2000 Nous sommes une équipe de passionnés !<br />L’amour des pizzas nous amène à inventer en permanence.<br />Revenez souvent pour découvrir nos dernières œuvres :-)
-        </p>
-        <h2>Je suis une grand voyageur</h2>
-        <p> Bla bla bla bla (texte de l’article) <br /> Copyright La Florentina - Tous droits réservés<br/><a href=“abcd” target=“_self”>Nous contacter</a> </p>
-        
+        <form>
+            <label for="prenom_personne">Prénom</label>
+            <input type="text" name="prenom" value="prenom_personne" />
+            <label for="nom_personne">Nom</label>
+            <input type="text" name="nom" value="nom_personne" />
+            <label for="email_personne">Email</label>
+            <input type="email" name="email" value="email_personne" />
+            <label for="tel_personne">Tel</label>
+            <input type="tel" name="tel" value="tel_personne" />
+            <select id="Canal de contact préféré" multiple>
+                <option value="Email">Email</option>
+                <option value="Téléphone">Téléphone</option>
+            </select>
+            <textarea rows ="5" cols="50"></textarea>
+        </form>
+ 
     </body>
     
 </html>
